@@ -4,7 +4,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-image: url(bgbody.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+
 }
 
 .login-container{
@@ -14,6 +19,7 @@ body{
     border-radius: 8px;
     width: 300px;
     text-align: center;
+    background-image: url(bglogin.jpg);
 }
 
 .login-container h2{
@@ -23,7 +29,7 @@ body{
 .login-container input{
     width: 100%;
     padding: 10px;
-    margin: 10px -10px;
+    margin: 8px -10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -31,6 +37,7 @@ body{
 .login-container button{
     width: 100%;
     padding: 10px 10px;
+    margin: 8px 0px;
     background: #007BFF;
     color: white;
     border: none;
